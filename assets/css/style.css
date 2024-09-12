@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4; /* Fondo neutro suave */
+    background-color: #f4f4f4; 
 }
 
 .grid-container {
@@ -21,13 +21,13 @@ nav {
     grid-area: nav;
     display: flex;
     justify-content: space-between;
-    background-color: #004182; /* Sugerencia: un azul oscuro elegante para el menú de navegación */
+    background-color: #004182; 
     padding: 20px 50px;
 }
 
 nav .logo {
     display: flex;
-    color: #f0f0f0; /* Sugerencia: blanco suave para contraste con el fondo azul */
+    color: #f0f0f0; 
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav i {
-    color: #f0f0f0; /* Iconos en blanco suave para consistencia */
+    color: #f0f0f0; 
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -54,12 +54,12 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: #b0b0b0; /* Sugerencia: un gris oscuro para un look moderno */
+    background-color: #b0b0b0; 
     padding: 10px;
 }
 
 header label {
-    color: #ffffff; /* Texto en blanco para un buen contraste */
+    color: #ffffff; 
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -70,8 +70,8 @@ header select {
     border-radius: 5px;
     border: none;
     outline: none;
-    background-color: #ffffff; /* Fondo blanco para el selector */
-    color: #2d2d2d; /* Texto gris oscuro */
+    background-color: #ffffff; 
+    color: #2d2d2d; 
 }
 
 main {
@@ -94,9 +94,9 @@ main {
     margin: 0 auto;
     padding: 10px;
     margin-top: 15px;
-    background-color: #ffffff; /* Fondo blanco limpio para las tarjetas */
+    background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
     width: 80%;
     height: 100%;
     align-items: center;
@@ -107,8 +107,8 @@ main {
 
 .card-container button {
     padding: 10px 20px;
-    background-color: #004182; /* Botones con azul oscuro como en el nav */
-    color: white; /* Texto en blanco para contraste */
+    background-color: #004182; 
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -128,7 +128,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    background-color: #ffffff; /* Fondo blanco para la sección de paginación */
+    background-color: #ffffff; 
     width: 80%;
     margin: 0 auto;
     margin-top: 10px;
@@ -148,8 +148,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #004182; /* El mismo azul oscuro del nav para consistencia */
-    color: #f0f0f0; /* Texto en blanco suave */
+    background-color: #004182; 
+    color: #f0f0f0;
     padding: 10px;
     font-weight: bold;
 }
@@ -158,10 +158,11 @@ footer i {
     margin-right: 10px;
     margin-bottom: 4px;
     font-size: 1.5rem;
-    color: #f0f0f0; /* Iconos en blanco suave */
+    color: #f0f0f0; 
 }
 
 /* Media queries pantallas más grandes */
+
 @media screen and (min-width: 576px) {
     .grid-container {
         max-width: 100vw;
